@@ -1,0 +1,110 @@
+/* Reset default styles and set a background color */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: serif, times;
+    background-color: #FFFFFF;
+}
+
+/* Header styling */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #000000;
+    text-align: left;
+    padding: 150px 0;
+    text-shadow: 2px 2px 4px BEE7A5
+}
+.hero h1 {
+    font-size: 2.5em;
+}
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #ECDDD7;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+}
+nav a {
+    color: #132228;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+/* Feature section styling */
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+}
+.feature {
+    text-align: center;
+}
+.feature h2 {
+    font-size: 2em;
+}
+.feature p {
+    font-size: 1.1em;
+}
+
+/* Parallax section styling */
+.parallax {
+    background-image: url('parallax-image.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+.parallax-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* Newsletter section styling */
+.newsletter {
+    text-align: center;
+    padding: 80px 0;
+}
+.newsletter h2 {
+    font-size: 2em;
+}
+.newsletter p {
+    font-size: 1.1em;
+}
+.newsletter form {
+    margin-top: 20px;
+}
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+}
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
